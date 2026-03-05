@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1542838132-92c53300491e") no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.glass {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    background: #1f7a3a;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background: #165c2b;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Admin Dashboard Specific */
+.event-box {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+code {
+    font-family: monospace;
+    background: rgba(0,0,0,0.4);
+    padding: 2px 6px;
+    border-radius: 4px;
+}

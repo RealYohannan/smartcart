@@ -1,0 +1,29 @@
+[
+  {
+    "id": 2,
+    "name": "Milk",
+    "category": "Dairy",
+    "price": 60,
+    "stock": 30,
+    "added": "2024-02-05",
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Bread",
+    "category": "Bakery",
+    "price": 40,
+    "stock": 20,
+    "added": "2024-03-01",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Carrot",
+    "category": "Vegetables",
+    "price": 35,
+    "stock": 70,
+    "added": "2024-01-25",
+    "rating": 4.3
+  }
+]
